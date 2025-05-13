@@ -2,9 +2,10 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "buildCommand": "cd project && npm install && npm run build",
+  "installCommand": "cd project && npm install",
+  "buildCommand": "cd project && npm run build",
   "outputDirectory": "project/dist",
-  "framework": "vite",
+  "framework": null,
   "headers": [
     {
       "source": "/(.*)",
